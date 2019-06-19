@@ -20,8 +20,7 @@ ActionTrail 可以记录主账号或 RAM 用户进行的操作，通过 ActionTr
 
 ActionTrail 可以记录资源组控制台的操作，例如：
 
-```language-json
-
+``` {#codeblock_dda_6aq_sif .language-json}
 {
 
   "eventId": "B1CFCA37-83FA-4288-B623-01994CF8BDD2",
@@ -33,7 +32,7 @@ ActionTrail 可以记录资源组控制台的操作，例如：
   "Name": "action"
 },
   "eventSource": "resourcemanager-share.aliyuncs.com",
-  "sourceIpAddress": "42.120.75.152",
+  "sourceIpAddress": "42.120.XX.XX",
   "userIdentity": {
   "sessionContext": {
   "attributes": {
@@ -41,8 +40,8 @@ ActionTrail 可以记录资源组控制台的操作，例如：
   "creationDate": "2019-03-08T07:00:04Z"
 }
 },
-  "accountId": "1117495088180940",
-  "principalId": "1117495088180940",
+  "accountId": "123456789012****",
+  "principalId": "111749508818****",
   "userName": "root",
   "type": "root-account"
 },
@@ -54,10 +53,10 @@ ActionTrail 可以记录资源组控制台的操作，例如：
   "acsRegion": "cn-hangzhou",
   "eventName": "CreateResourceGroup"
 }
-
+				
 ```
 
 ## 更多信息 {#section_qqw_pf4_tgb .section}
 
-关于操作记录的详细信息，请参考[操作事件\(Event\)结构定义](../../../../intl.zh-CN/用户指南/操作事件(Event)结构定义.md#)。
+关于操作记录的详细信息，请参考[操作事件\(Event\)结构定义](../../../../cn.zh-CN/用户指南/操作事件(Event)结构定义.md#)。
 
