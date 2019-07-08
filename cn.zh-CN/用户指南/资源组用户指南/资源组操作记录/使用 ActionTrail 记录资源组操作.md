@@ -6,7 +6,7 @@ ActionTrail 可以记录主账号或 RAM 用户进行的操作，通过 ActionTr
 
 资源组已经与 ActionTrail 服务进行了集成，可以联合使用。
 
-## 使用 ActionTrail 查看 资源组操作记录的步骤 {#section_hyp_ll4_tgb .section}
+## 使用 ActionTrail 查看 RAM 操作记录的步骤 {#section_0bi_5td_72m .section}
 
 1.  登录 [ActionTrail 控制台](https://actiontrail.console.aliyun.com)。
 2.  在**历史事件查询**页签下，使用**过滤器**进行搜索。
@@ -23,7 +23,7 @@ ActionTrail 可以记录资源组控制台的操作，例如：
 ``` {#codeblock_dda_6aq_sif .language-json}
 {
 
-  "eventId": "B1CFCA37-83FA-4288-B623-01994CF8BDD2",
+  "eventId": "B1CFCA37-83FA-4288-B623-01994CF8****",
   "eventVersion": "1",
   "requestParameters": {
   "RequestId": "B1CFCA37-83FA-4288-B623-01994CF8BDD2",
@@ -58,5 +58,5 @@ ActionTrail 可以记录资源组控制台的操作，例如：
 
 ## 更多信息 {#section_qqw_pf4_tgb .section}
 
-关于操作记录的详细信息，请参考[操作事件\(Event\)结构定义](../../../../cn.zh-CN/用户指南/操作事件(Event)结构定义.md#)。
+关于操作记录的详细信息，请参考[操作事件\(Event\)结构定义](../../cn.zh-CN/用户指南/操作事件(Event)结构定义.md#)。
 
